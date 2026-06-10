@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Design Lab Faculty Intelligence — moved</title>
+  <meta http-equiv="refresh" content="0; url=https://ucsd-designlab.github.io/dlab-faculty-intelligence/">
+  <script>
+    // Preserve path + query + hash on redirect:
+    //   weibellab.github.io/dlab-faculty-intelligence/synergies?x=1#y
+    //   →
+    //   ucsd-designlab.github.io/dlab-faculty-intelligence/synergies?x=1#y
+    (function () {
+      var NEW = "https://ucsd-designlab.github.io/dlab-faculty-intelligence/";
+      var path = (location.pathname || "").replace(/^\/dlab-faculty-intelligence\/?/, "");
+      location.replace(NEW + path + (location.search || "") + (location.hash || ""));
+    })();
+  </script>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+           max-width: 560px; margin: 8vh auto; padding: 0 24px; color: #1e293b; }
+    h1 { color: #00629b; font-size: 22px; margin-bottom: 12px; }
+    a  { color: #00629b; word-break: break-all; }
+    .muted { color: #64748b; font-size: 13px; margin-top: 24px; }
+  </style>
+</head>
+<body>
+  <h1>The dashboard has moved</h1>
+  <p>
+    The UC San Diego Design Lab Faculty Intelligence dashboard is now served at:
+  </p>
+  <p>
+    <a href="https://ucsd-designlab.github.io/dlab-faculty-intelligence/">
+      ucsd-designlab.github.io/dlab-faculty-intelligence/
+    </a>
+  </p>
+  <p>You should be redirected automatically. If not, click the link above.</p>
+  <p class="muted">
+    The old URL <code>weibellab.github.io/dlab-faculty-intelligence</code> will keep redirecting indefinitely.
+  </p>
+</body>
+</html>
